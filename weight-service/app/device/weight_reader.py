@@ -1,0 +1,1 @@
+# Weight reader device placeholder

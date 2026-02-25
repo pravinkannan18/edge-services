@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  gateway:
+    build: ./gateway
+    ports:
+      - "80:80"
+  rfid-service:
+    build: ./rfid-service
+  purity-service:
+    build: ./purity-service
+  weight-service:
+    build: ./weight-service
+  rbi-service:
+    build: ./rbi-service
